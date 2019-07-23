@@ -11,7 +11,7 @@ namespace Sample
 {
     public class Program
     {
-        public static void Main(string[] args)
+      .UseApplicationInsights(test Key)  public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
         }
