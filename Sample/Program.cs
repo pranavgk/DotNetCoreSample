@@ -17,7 +17,7 @@ namespace Sample
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
+            WebHost.CreateDefaultBuilder(args).UseApplicationInsights(test Key)
                 .UseStartup<Startup>();
     }
 }
